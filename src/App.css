@@ -1,0 +1,61 @@
+.navbar {
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: transparent;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #95f6c2;
+}
+
+body {
+  background-color: #303841;
+}
+
+
+.logo img {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin-top: -50px;
+}
+
+.text {
+  color: white;
+  display: block;
+  margin-top: 200px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.me-photo img {
+  height: 300px;
+  width: 175px;
+}
